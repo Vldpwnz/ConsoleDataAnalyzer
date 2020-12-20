@@ -1,5 +1,5 @@
 # ConsoleDataAnalyzer
-ConsoleDataAnalyzer App created for analyzing data from text files. 
+ConsoleDataAnalyzer App created for analyzing data from txt files. 
 
 ### Functionality:
 * Count number of words
@@ -14,7 +14,7 @@ ConsoleDataAnalyzer App created for analyzing data from text files.
 $java –jar scraper.jar -F <names of files> -C -S <stop words> -L
 
 -F <names of files> (required flag and at least one argument) should be full qulified name if file outside root directory, 
-enter as much as needed files splited by space
+enter as much as needed files splited by space, should have .txt extension
 -C (non-required) count characters in files
 -S <stop words> (non-required) count all words excluding all listed stop words, should be splited by space
 -L (non-required) count words started with capital letters
