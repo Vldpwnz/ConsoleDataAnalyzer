@@ -76,7 +76,7 @@ public class Counter {
                     totalCharacters += characters;
 
                 }
-                if (argsController.isStartFromCapitalLetter()) {
+                if (argsController.isStartWithCapitalLetter()) {
                     int wordsWithFirstCapital = countCapsLettersWords(textContent);
                     System.out.println("Words started with capital letter: " + wordsWithFirstCapital);
                     totalWordsWithFirstCapital += wordsWithFirstCapital;
@@ -90,7 +90,7 @@ public class Counter {
         if(argsController.isCountCharacters()){
             System.out.printf("%S: %d %n", "Characters", totalCharacters );
         }
-        if(argsController.isStartFromCapitalLetter()){
+        if(argsController.isStartWithCapitalLetter()){
             System.out.printf("%S: %d %n", "Words started with capital letter", totalWordsWithFirstCapital);
         }
     }

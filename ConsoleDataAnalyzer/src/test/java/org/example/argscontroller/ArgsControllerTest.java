@@ -37,7 +37,7 @@ public class ArgsControllerTest {
         int actualSizeOfStopWordsArray= argsController.getAvoidedWords().length;
 
         assertFalse(argsController.isCountCharacters());
-        assertFalse(argsController.isStartFromCapitalLetter());
+        assertFalse(argsController.isStartWithCapitalLetter());
         assertEquals(expectedSizeOfStopWordsArray, actualSizeOfStopWordsArray);
 
 

@@ -3,7 +3,6 @@ package org.example.argscontroller;
 import com.beust.jcommander.Parameter;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ArgsController {
@@ -18,14 +17,14 @@ public class ArgsController {
     private List<String> avoidedWords;
 
     @Parameter(names = "-L", required = false, description = "Count words with Cap", arity = -1)
-    private boolean startFromCapitalLetter;
+    private boolean startWithCapitalLetter;
 
-    public boolean isStartFromCapitalLetter() {
-        return startFromCapitalLetter;
+    public boolean isStartWithCapitalLetter() {
+        return startWithCapitalLetter;
     }
 
-    public void setStartFromCapitalLetter(boolean startFromCapitalLetter) {
-        this.startFromCapitalLetter = startFromCapitalLetter;
+    public void setStartWithCapitalLetter(boolean startWithCapitalLetter) {
+        this.startWithCapitalLetter = startWithCapitalLetter;
     }
 
     public String [] getAvoidedWords() {
