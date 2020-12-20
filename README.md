@@ -26,4 +26,4 @@ enter as much as needed files splited by space, should have .txt extension
 * JUnit5 for testing part
 * JCommander for parsing arguments from the console
 
-![Algorithm schema](https://github.com/Vldpwnz/ConsoleDataAnalyzer/blob/main/ConsoleDataAnalyzer/src/main/resources/AppScreenShot.png)
+![Algorithm schema](https://github.com/Vldpwnz/ConsoleDataAnalyzer/blob/main/ConsoleDataAnalyzer/src/main/resources/AppScreenShot2.png)
