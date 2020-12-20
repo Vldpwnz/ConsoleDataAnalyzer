@@ -26,3 +26,4 @@ enter as much as needed files splited by space
 * JUnit5 for testing part
 * JCommander for parsing arguments from the console
 
+![Algorithm schema](https://github.com/Vldpwnz/ConsoleDataAnalyzer/blob/main/ConsoleDataAnalyzer/src/main/resources/AppScreenShot.png)
